@@ -1,4 +1,7 @@
 # e-Print-Point-of-Sales
 e-Print Point of Sales dengan Java GUI
 <hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pi9T0XR8I20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video controls>
+    <source src="https://www.youtube.com/embed/pi9T0XR8I20" type="video/webm" />
+    Browsermu tidak mendukung tag ini, upgrade donk!
+</video>
