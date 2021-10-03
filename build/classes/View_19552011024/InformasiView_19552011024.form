@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Akses"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="home">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Assets_19552011024/home-5801.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Home"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="homeActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="informasi" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="informasi" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="informasi">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Assets_19552011024/information-5802.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Informasi"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" pref="1338" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Assets_19552011024/Logo-Award-FILEminimizer-FILEminimizer.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Assets_19552011024/TintaPenting-FILEminimizer-980x311.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="12" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Tinta merupakan benda yang sangat penting di era modern saat ini. Bagaimana tidak, tinta adalah sumber terpenting setelah printer untuk menghasilkan banyak kegunaan seperti mencetak tulisan, gambar ataupun hal yang di cetak lainnya, dan semua itupun menggunakan &#x2018;tinta&#x2019;.Tinta adalah sumber yang menghasilkan banyak keanekaragaman hasil cetak yang menarik seperti mencetak untuk skripsi, mencetak gambar/foto, bahkan sampai mencetak kartu undangan pernikahan.&#xa;&#xa;Banyak beragam tinta yang ada saat ini, sehingga kalian (customer) bingung membedakannya dikarenakan banyaknya pemilihan tinta dan kalian tidak tau keunggulan atau pun kegunaan tinta tersebut cocok dengan printer dan kebutuhan kalian atau tidak. berikut macam-macam tinta serta kegunaanya yang mungkin kalian bisa ketahui untuk memilih tinta.&#xa;&#xa;Nah, ini dia 3 Jenis tinta dan fungsinya&#xa;1. Tinta Printer Pigment (Durabrite)&#xa;&#xa;Tinta ini kualitas tinggi yang mampu mencetak dokumen dalam bentuk tulisan atau gambar dengan hasil yang sangat tajam, pekat, dan tahan air di semua jenis kertas seperti HVS, Injet paper ataupun Photo paper. Gunakan tinta ini dengan tepat, apabila terlalu lama membiarkan tinta pigment tidak terpakai, maka head tinta cartidge dapat tersumbat.&#xa;&#xa;Ternyata, untuk tinta printer pigment ada 3 jenis lagi loh&#xa;&#xa; Tinta Printer Pigment Art Paper Ink&#xa;&#xa;merupakan jenis tinta yang cocok untuk digunakan di percetakan skala kecil ataupun besar dengan menggunakan kertas art paper ivory dengan quantity kecil untuk gambar full color.&#xa;Tinta Printer Pigment Art Paper Korea&#xa;&#xa;Tinta anti pudar dan luntur walau terkena sinar matahari secara langsung dalam jangka waktu yang lama. Tinta ini cocok digunakan untuk usaha Photo membutuhkan kualitas bagus serta tahan lama walau diletakkan di lokasi outdoor / Indoor. Selain itu, biasanya dapat diaplikasikan pada jenis kertas art paper, photo paper, sticker photo paper, kertas PVS dll. Dan hasil cetak menggunakan art paper korea lebih halus dan tajam.&#xa;Tinta Printer Pigment Art Paper China&#xa;&#xa;Tinta ini sama persis dengan tinta pigment Art paper China, hanyasaja yang membedakan hasil cetaknya. Untuk hasil cetak Art PaperChina lebih natural warna tidak pudar walaupun terkena sinar matahari dan bisa tahan lama.&#xa; &#xa;&#xa;2. Tinta Printer Dye Base&#xa;&#xa;Tinta yang terbuat dari bahan air dan colourant, sehingga kemungkinan mengendap atau buntu pada &#x2018;Printhead Cartridge&#x2019; semakin kecil. Tinta Dye Base biasa digunakan untuk kertas HVS, Glossy paper, Inkjet paper, canvas, PVC ID Card dan lain sebagainya. Namun tinta ini tidak bisa digunakan untuk cetak Art paper ( kertas brosur dan kalender). Tinta ini juga mudah luntur dan warnanya gampang pudar jika terpapar panas / cahaya matahari dan juga waktu pengeringan tinta pada media cetak lebih lama.&#xa;&#xa;3. Tinta Sublimation Ink&#xa;&#xa;Tinta printer yang sering digunakan untuk printer infus, atau bisa disebut dengan tinta yang umum digunakan untuk mencetak bahan sablonan seperti (kaos, pin, mug, topi) karena tinta sublim ini lebih tahan terhadap air dan degradasi warna yang lebih kuat.  Tinta ini juga lebih ekonomis dan efisien serta hasil sablon bisa distrika secara langsung. Dengan metode transfer yang digunakan adalah cetak ke kertas HVS atau inkjet paper lalu di heat press ke (kaos, pin, mug, topi).  Namun disini yang menjadi kekurangan adalah resiko Printhead tersumbat lebih besar&#xa;&#xa;Bagi e-Famz yang masih bingung mau menggunakan tinta merek apa, don&#x2019;t worry, solusinya adalah dengan menggunakan tinta dari e-Print yang memiliki banyak keunggulan di antaranya adalah:&#xa;&#xa;Kualitas cetak gambar TAJAM, SETARA DENGAN ORIGINAL&#xa;Bahan baku e-Print TERBAIK&#xa;Sudah teruji secara INTERNASIONAL dan TERDAFTAR&#xa;Cocok untuk mencetak dokumen, gambar dan desain&#xa;SURFACE TENSION 34/40 DYNES yang menjamin kualitas peresapan tinta pada media cetak terutama photo paper sehingga TIDAK MUDAH PUDAR DAN LUNTUR.&#xa;INK VISCOSITY (Kekentalan Tinta) 1.7 &#x2013; 2,0, sesuai dengan standard spesifikasi tinta inkjet sehingga AMAN untuk HEAD PRINTER.&#xa;Tinta e-Print juga HEMAT, bisa mencetak hingga 7000 LEMBAR&#xa;E-Print juga berani memberikan GARANSI&#xa;E-Print mempunyai banyak pilihan tinta untuk mendukung kebutuhan cetak kalian.&#xa;&#xa;TINTA SUNTIK :&#xa;Refill Kit Gold&#xa;Refill Kit Blister&#xa;TINTA REFILL BOTOL :&#xa;Bulk INK (80mL)&#xa;Bulk INK (100mL)&#xa;Bulk INK (200mL)&#xa;Bulk INK (1 Kg)&#xa;Super Black Pigment&#xa;Sublimation INK&#xa;ART PAPER INK&#xa;CISS (Continuous Ink Supply System)&#xa;Gimana e-Famz ternyata tinta begitu penting ya di kehidupan sehari-hari kita. Nah, jangan lupa untuk selalu menggunakan produk &#x2013; produk e-Print ya, karena e-Print Solusi Cetak Hemat Kualitas Hebat"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
